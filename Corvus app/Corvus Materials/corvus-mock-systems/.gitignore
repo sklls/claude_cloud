@@ -1,0 +1,16 @@
+# Runtime state written by the Corvus mock systems and the agent, not code.
+# Keep it out of git and out of the hand-in zip (build brief section 7: "without .env, logs or work folders").
+# (Comments must be on their own line in .gitignore.)
+
+# gateway_drop.py deliveries
+/inbox/
+# server_audit.jsonl, gateway_state.json, agent audit and shadow logs
+/logs/
+# PDFs downloaded by the agent's get_documents tool
+/work/
+# work-queue tags written by the server (POST /admin/reset clears it)
+/data/workqueue_state.json
+__pycache__/
+
+# Service-account keys (ISP-07 rule 3). Also ignored at the repo root; repeated so this folder is safe on its own.
+.env
