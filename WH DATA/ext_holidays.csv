@@ -1,0 +1,20 @@
+holiday_name,start_date,end_date,holiday_type,regions,is_public_holiday,source
+Muharram (Ashura),26-Jun-2026,26-Jun-2026,public holiday,All India,Y,demo_calendar_2026
+Guru Purnima,29-Jul-2026,29-Jul-2026,festival,All India,N,demo_calendar_2026
+Aadi Perukku,03-Aug-2026,03-Aug-2026,festival,Tamil Nadu,N,demo_calendar_2026
+Independence Day,15-Aug-2026,15-Aug-2026,national holiday,All India,Y,demo_calendar_2026
+Nag Panchami,17-Aug-2026,17-Aug-2026,festival,Maharashtra,N,demo_calendar_2026
+Varalakshmi Vratham,21-Aug-2026,21-Aug-2026,festival,"Telangana, Karnataka, Tamil Nadu",N,demo_calendar_2026
+Onam (Thiruvonam),26-Aug-2026,26-Aug-2026,festival,Kerala,N,demo_calendar_2026
+Milad-un-Nabi,26-Aug-2026,26-Aug-2026,public holiday,Pan-India,Y,demo_calendar_2026
+Raksha Bandhan,28-Aug-2026,28-Aug-2026,festival,All India,N,demo_calendar_2026
+Janmashtami,04-Sep-2026,04-Sep-2026,public holiday,All India,Y,demo_calendar_2026
+Ganesh Chaturthi,14-Sep-2026,14-Sep-2026,public holiday,Maharashtra; Telangana; Karnataka; Tamil Nadu,Y,demo_calendar_2026
+Ganeshotsav,14-Sep-2026,25-Sep-2026,festival period,Maharashtra; Telangana; Karnataka,N,demo_calendar_2026
+Pitru Paksha,26-Sep-2026,10-Oct-2026,inauspicious period,All India,N,demo_calendar_2026
+Gandhi Jayanti,02-Oct-2026,02-Oct-2026,national holiday,All India,Y,demo_calendar_2026
+gandhi jayanti,02-Oct-2026,02-Oct-2026,national holiday,All India,Y,demo_calendar_2026
+Bathukamma,10-Oct-2026,18-Oct-2026,festival period,Telangana,N,demo_calendar_2026
+Navratri,11-Oct-2026,19-Oct-2026,festival period,All India,N,demo_calendar_2026
+Durga Puja (Saptami-Navami),18-Oct-2026,20-Oct-2026,festival period,"Delhi, Maharashtra, Karnataka",N,demo_calendar_2026
+Dussehra (Vijayadashami),20-Oct-2026,20-Oct-2026,public holiday,All India,Y,demo_calendar_2026

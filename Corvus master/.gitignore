@@ -1,0 +1,20 @@
+# never commit secrets
+.env
+*.key
+.claude/settings.local.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
+Thumbs.db
+
+# keep the results/ folder but not a run's scratch
+results/*.tmp
+
+# rendered page images (regenerated from the PDFs on demand)
+.page_cache/

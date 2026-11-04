@@ -1,0 +1,15 @@
+{
+  "packet_id": "D20",
+  "treatment_type": "cataract",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH45138015",
+    "patient_name": "Sunita Yadav",
+    "icd10": "H25.1",
+    "admission_date": "2026-10-12",
+    "estimated_cost": 41000
+  },
+  "evidence": {},
+  "reason": ""
+}

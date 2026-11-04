@@ -1,0 +1,5 @@
+# Corvus intake assistant prototype
+claude-agent-sdk>=0.1.0      # the Agent SDK used by run_all.py and demo.py
+PyMuPDF>=1.24                # renders scanned PDF pages to images for the reader
+openpyxl>=3.1                # run_checks.py reads the labelled .xlsx
+# check_packet.py itself needs only the Python standard library.

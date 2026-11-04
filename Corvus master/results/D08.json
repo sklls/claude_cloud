@@ -1,0 +1,19 @@
+{
+  "packet_id": "D08",
+  "treatment_type": "appendectomy",
+  "status": "incomplete",
+  "missing_items": [
+    "form.patient_signature"
+  ],
+  "fields": {
+    "member_id": "CVH44931289",
+    "patient_name": "Kiran Pandey",
+    "icd10": "K35.3",
+    "admission_date": "2026-10-07",
+    "estimated_cost": 75000
+  },
+  "evidence": {
+    "form.patient_signature": "Patient's / attendant's signature is missing on the form (p.1)"
+  },
+  "reason": ""
+}

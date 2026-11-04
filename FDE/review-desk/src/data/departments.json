@@ -1,0 +1,34 @@
+[
+  {
+    "department": "Merchandising",
+    "handles": "Sizing, fit, fabric, product quality, product photos, size charts"
+  },
+  {
+    "department": "Store Operations",
+    "handles": "Staff behaviour, queues, pickup delays, order-picking errors"
+  },
+  {
+    "department": "Inventory",
+    "handles": "Stock not matching what the site showed, reservations not held"
+  },
+  {
+    "department": "Pricing & Marketing",
+    "handles": "Price differences, offers and discounts"
+  },
+  {
+    "department": "Tech / Product",
+    "handles": "Website, checkout and payment problems"
+  },
+  {
+    "department": "Customer Care",
+    "handles": "Refunds, general queries, replies"
+  },
+  {
+    "department": "Brand / PR",
+    "handles": "Abuse, legal risk, public threats, viral complaints"
+  },
+  {
+    "department": "Ignore",
+    "handles": "Spam"
+  }
+]

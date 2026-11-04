@@ -1,0 +1,386 @@
+{
+ "name": "Threadhouse",
+ "version": 1,
+ "color": {
+  "themes": [
+   {
+    "id": "light",
+    "name": "Light"
+   },
+   {
+    "id": "dark",
+    "name": "Dark"
+   }
+  ],
+  "tokens": [
+   {
+    "name": "surface",
+    "value": {
+     "light": "#faf7f2",
+     "dark": "#14152b"
+    },
+    "usage": "Page background."
+   },
+   {
+    "name": "surface-raised",
+    "value": {
+     "light": "#ffffff",
+     "dark": "#1d1f3d"
+    },
+    "usage": "Cards, product tiles, sheets, form fields and the header, set on `surface`."
+   },
+   {
+    "name": "surface-tint",
+    "value": {
+     "light": "#ecedf9",
+     "dark": "#262955"
+    },
+    "usage": "Image placeholders, selected chips, hover rows and quiet panels, set on `surface` or `surface-raised`."
+   },
+   {
+    "name": "ink",
+    "value": {
+     "light": "#1b1d3a",
+     "dark": "#f3f1ea"
+    },
+    "usage": "Primary text and icons on `surface`, `surface-raised` and `surface-tint`."
+   },
+   {
+    "name": "ink-muted",
+    "value": {
+     "light": "#565974",
+     "dark": "#a9abc8"
+    },
+    "usage": "Secondary text: captions, helper text, MRP strike-through, on `surface`, `surface-raised` and `surface-tint`."
+   },
+   {
+    "name": "line",
+    "value": {
+     "light": "#e2ddd2",
+     "dark": "#34376a"
+    },
+    "usage": "Decorative hairlines: dividers between rows and card edges. Never the only edge of a form control."
+   },
+   {
+    "name": "line-strong",
+    "value": {
+     "light": "#80839c",
+     "dark": "#7a7db0"
+    },
+    "usage": "Borders of inputs, selects, checkboxes and outlined buttons. 3:1 or better against `surface` and `surface-raised`."
+   },
+   {
+    "name": "brand",
+    "value": {
+     "light": "#2b2f77",
+     "dark": "#aeb2ff"
+    },
+    "usage": "Threadhouse indigo. Primary buttons, links, active nav, focus ring and the logo line. Text on it uses `on-brand`."
+   },
+   {
+    "name": "brand-hover",
+    "value": {
+     "light": "#20245c",
+     "dark": "#c6c9ff"
+    },
+    "usage": "Hover and pressed state of `brand` fills."
+   },
+   {
+    "name": "on-brand",
+    "value": {
+     "light": "#ffffff",
+     "dark": "#14152b"
+    },
+    "usage": "Text and icons placed on a `brand` fill."
+   },
+   {
+    "name": "accent",
+    "value": {
+     "light": "#f2a541",
+     "dark": "#f2a541"
+    },
+    "usage": "Saffron. Fills only: the free-pickup banner, badges, the tag in the logo. Never as text colour on light surfaces. Text on it uses `on-accent`."
+   },
+   {
+    "name": "on-accent",
+    "value": {
+     "light": "#1b1d3a",
+     "dark": "#1b1d3a"
+    },
+    "usage": "Text and icons placed on an `accent` fill."
+   },
+   {
+    "name": "focus-ring",
+    "value": {
+     "light": "{brand}",
+     "dark": "{brand}"
+    },
+    "usage": "Keyboard focus outline, 2px with a 2px offset, on every interactive element."
+   },
+   {
+    "name": "status-info-bg",
+    "value": {
+     "light": "#e6e8fb",
+     "dark": "#262955"
+    },
+    "usage": "Order status Placed: pill background."
+   },
+   {
+    "name": "status-info-text",
+    "value": {
+     "light": "#2b2f77",
+     "dark": "#c6c9ff"
+    },
+    "usage": "Order status Placed: pill text on `status-info-bg`."
+   },
+   {
+    "name": "status-warning-bg",
+    "value": {
+     "light": "#fcebcb",
+     "dark": "#3d2c0f"
+    },
+    "usage": "Order status Ready for pickup, and low-stock notices: pill background."
+   },
+   {
+    "name": "status-warning-text",
+    "value": {
+     "light": "#6b4200",
+     "dark": "#f7c777"
+    },
+    "usage": "Ready for pickup and low stock: text on `status-warning-bg`."
+   },
+   {
+    "name": "status-success-bg",
+    "value": {
+     "light": "#d8f0ea",
+     "dark": "#0f2f2b"
+    },
+    "usage": "Order status Collected, and in-stock notices: pill background."
+   },
+   {
+    "name": "status-success-text",
+    "value": {
+     "light": "#0b5d52",
+     "dark": "#6fe0cc"
+    },
+    "usage": "Collected and in stock: text on `status-success-bg`."
+   },
+   {
+    "name": "status-danger-bg",
+    "value": {
+     "light": "#fbe4e1",
+     "dark": "#3d1816"
+    },
+    "usage": "Order status Not collected, and out-of-stock notices, and form errors: background."
+   },
+   {
+    "name": "status-danger-text",
+    "value": {
+     "light": "#a3231a",
+     "dark": "#ffa39a"
+    },
+    "usage": "Not collected, out of stock and form errors: text on `status-danger-bg`."
+   },
+   {
+    "name": "status-neutral-bg",
+    "value": {
+     "light": "#ece8df",
+     "dark": "#2a2c4f"
+    },
+    "usage": "Order status Cancelled: pill background."
+   },
+   {
+    "name": "status-neutral-text",
+    "value": {
+     "light": "#4a4d68",
+     "dark": "#c4c6de"
+    },
+    "usage": "Cancelled: text on `status-neutral-bg`."
+   }
+  ]
+ },
+ "type": {
+  "fonts": [],
+  "families": {
+   "display": "\"Outfit\", \"Plus Jakarta Sans\", system-ui, sans-serif",
+   "body": "\"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif"
+  },
+  "groups": [
+   {
+    "name": "Display",
+    "family": "display",
+    "styles": [
+     {
+      "name": "display",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.01em",
+      "sample": "Try it on. Take it home today.",
+      "usage": "Home page hero only, one per page."
+     },
+     {
+      "name": "h1",
+      "fontSize": "32px",
+      "lineHeight": "38px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.01em",
+      "sample": "Kurtas",
+      "usage": "Page titles: category, product, checkout."
+     },
+     {
+      "name": "h2",
+      "fontSize": "24px",
+      "lineHeight": "30px",
+      "fontWeight": 600,
+      "sample": "Pick up from",
+      "usage": "Section titles within a page."
+     },
+     {
+      "name": "h3",
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "fontWeight": 600,
+      "sample": "Order summary",
+      "usage": "Card titles and drawer headings."
+     }
+    ]
+   },
+   {
+    "name": "Text",
+    "family": "body",
+    "styles": [
+     {
+      "name": "body",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": 400,
+      "sample": "Reserve online, try it on in store, pay when you collect.",
+      "usage": "Default text. Never below 16px in inputs, so phones do not zoom."
+     },
+     {
+      "name": "body-sm",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": 400,
+      "sample": "We hold your order for 3 days.",
+      "usage": "Helper text, table cells, secondary lines."
+     },
+     {
+      "name": "label",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": 600,
+      "sample": "Mobile number",
+      "usage": "Form labels, button text, nav items."
+     },
+     {
+      "name": "caption",
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "fontWeight": 500,
+      "letterSpacing": "0.02em",
+      "sample": "Banjara Hills, Hyderabad",
+      "usage": "Badges, store names under products, timestamps."
+     },
+     {
+      "name": "price",
+      "fontSize": "20px",
+      "lineHeight": "24px",
+      "fontWeight": 700,
+      "sample": "₹2,499",
+      "usage": "Selling price. Set with tabular numbers."
+     }
+    ]
+   }
+  ]
+ },
+ "spacing": {
+  "tokens": [
+   {
+    "name": "space-1",
+    "value": "4px",
+    "usage": "Icon-to-text gaps, tight pill padding."
+   },
+   {
+    "name": "space-2",
+    "value": "8px",
+    "usage": "Gap between chips, between label and field."
+   },
+   {
+    "name": "space-3",
+    "value": "12px",
+    "usage": "Padding inside buttons and inputs, gap between list rows."
+   },
+   {
+    "name": "space-4",
+    "value": "16px",
+    "usage": "Page gutter on mobile, card padding."
+   },
+   {
+    "name": "space-5",
+    "value": "24px",
+    "usage": "Gap between cards and between form groups."
+   },
+   {
+    "name": "space-6",
+    "value": "32px",
+    "usage": "Gap between page sections on mobile."
+   },
+   {
+    "name": "space-7",
+    "value": "48px",
+    "usage": "Gap between page sections on desktop."
+   },
+   {
+    "name": "space-8",
+    "value": "64px",
+    "usage": "Top and bottom of the home hero on desktop."
+   }
+  ]
+ },
+ "radius": {
+  "tokens": [
+   {
+    "name": "radius-sm",
+    "value": "8px",
+    "usage": "Inputs, selects, small images."
+   },
+   {
+    "name": "radius-md",
+    "value": "12px",
+    "usage": "Buttons, banners."
+   },
+   {
+    "name": "radius-lg",
+    "value": "20px",
+    "usage": "Product cards, store cards, bottom sheets."
+   },
+   {
+    "name": "radius-pill",
+    "value": "999px",
+    "usage": "Status pills, size chips, filter chips."
+   }
+  ]
+ },
+ "shadow": {
+  "tokens": [
+   {
+    "name": "shadow-card",
+    "value": {
+     "light": "0 1px 2px rgba(27,29,58,0.08), 0 4px 16px rgba(27,29,58,0.06)",
+     "dark": "0 1px 2px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3)"
+    },
+    "usage": "Product cards on hover and the sticky mobile reserve bar. Cards at rest use `line` instead."
+   },
+   {
+    "name": "shadow-sheet",
+    "value": {
+     "light": "0 -8px 32px rgba(27,29,58,0.16)",
+     "dark": "0 -8px 32px rgba(0,0,0,0.5)"
+    },
+    "usage": "Bottom sheets such as the store picker."
+   }
+  ]
+ }
+}

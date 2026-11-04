@@ -1,0 +1,15 @@
+{
+  "packet_id": "D01",
+  "treatment_type": "cataract",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH36109074",
+    "patient_name": "Neha Yadav",
+    "icd10": "H25.1",
+    "admission_date": "2026-10-17",
+    "estimated_cost": 44000
+  },
+  "evidence": {},
+  "reason": ""
+}

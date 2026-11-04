@@ -1,0 +1,15 @@
+{
+  "packet_id": "D12",
+  "treatment_type": "delivery",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH39644778",
+    "patient_name": "Archana Kulkarni",
+    "icd10": "O80.0",
+    "admission_date": "2026-10-07",
+    "estimated_cost": 40000
+  },
+  "evidence": {},
+  "reason": ""
+}

@@ -1,0 +1,15 @@
+{
+  "packet_id": "D07",
+  "treatment_type": "appendectomy",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH38889659",
+    "patient_name": "Sravani Yadav",
+    "icd10": "K35.8",
+    "admission_date": "2026-10-12",
+    "estimated_cost": 85000
+  },
+  "evidence": {},
+  "reason": ""
+}

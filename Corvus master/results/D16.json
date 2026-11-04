@@ -1,0 +1,19 @@
+{
+  "packet_id": "D16",
+  "treatment_type": "cataract",
+  "status": "incomplete",
+  "missing_items": [
+    "form.icd10"
+  ],
+  "fields": {
+    "member_id": "CVH44823778",
+    "patient_name": "Sunil Gupta",
+    "icd10": null,
+    "admission_date": "2026-10-05",
+    "estimated_cost": 35000
+  },
+  "evidence": {
+    "form.icd10": "ICD-10 code is blank on the form (p.1)"
+  },
+  "reason": ""
+}

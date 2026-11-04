@@ -1,0 +1,39 @@
+{
+  "packet_id": "D01",
+  "pages": 5,
+  "treatment_type": "cataract",
+  "form": {
+    "present": true,
+    "page": 1,
+    "patient_name": "Neha Yadav",
+    "member_id": "CVH36109074",
+    "hospital_id": "CVN-RJ-0105",
+    "doctor_name": "Dr Ritu Bhargava",
+    "doctor_reg_no": "RMC/2006/76698",
+    "diagnosis": "Senile nuclear cataract, right eye",
+    "icd10": "H25.1",
+    "procedure": "Phacoemulsification with IOL, right eye",
+    "admission_type": "planned",
+    "admission_date": "2026-10-17",
+    "length_of_stay": 1,
+    "estimated_cost": 44000,
+    "doctor_signature_present": true,
+    "patient_signature_present": true,
+    "laterality": "right",
+    "delivery_mode": null
+  },
+  "documents": [
+    {"type": "id_card", "page": 2, "name": "Neha Yadav", "member_id": "CVH36109074", "dob": "1967-02-02"},
+    {"type": "clinical_note", "page": 3, "date": "2026-10-01", "laterality": "right", "lscs_indication": false},
+    {"type": "cost_estimate", "page": 4, "total": 44000, "on_letterhead": true, "signed": true,
+     "line_items": [
+       {"desc": "Surgeon and anaesthetist fees", "amount": 16000},
+       {"desc": "Operation theatre and equipment", "amount": 10000},
+       {"desc": "Lens: Monofocal hydrophobic foldable IOL", "amount": 12000},
+       {"desc": "Medicines and consumables", "amount": 3000},
+       {"desc": "Day-care bed (1 day)", "amount": 3000}
+     ]},
+    {"type": "biometry", "page": 5, "laterality": "right", "details": "Axial length 22.41 mm; recommended IOL power +21.5 D"}
+  ],
+  "uncertain": []
+}

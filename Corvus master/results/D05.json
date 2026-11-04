@@ -1,0 +1,19 @@
+{
+  "packet_id": "D05",
+  "treatment_type": "tka",
+  "status": "incomplete",
+  "missing_items": [
+    "doc.xray_knee"
+  ],
+  "fields": {
+    "member_id": "CVH33390811",
+    "patient_name": "Kavitha Murugesan",
+    "icd10": "M17.1",
+    "admission_date": "2026-10-02",
+    "estimated_cost": 256000
+  },
+  "evidence": {
+    "doc.xray_knee": "No knee X-ray report attached"
+  },
+  "reason": ""
+}

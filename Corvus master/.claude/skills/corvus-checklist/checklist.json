@@ -1,0 +1,88 @@
+{
+  "version": "Meena Joshi's checklist, version 3 (October 2026)",
+  "source": "Meena_s Checklist - 5 Treatment Types.xlsx",
+  "note": "All data is synthetic, for teaching. Item IDs are what the prototype reports.",
+
+  "items": {
+    "form.patient_name":      {"group": "Form", "requirement": "Patient name is filled in"},
+    "form.member_id":         {"group": "Form", "requirement": "Corvus member ID is filled in and legible, and identifies exactly one ClaimCore member (obvious typos and legacy Helix IDs are fine if the name and date of birth confirm the member)"},
+    "form.hospital_id":       {"group": "Form", "requirement": "Hospital network ID is filled in"},
+    "form.doctor_name":       {"group": "Form", "requirement": "Treating doctor's name is filled in"},
+    "form.doctor_reg_no":     {"group": "Form", "requirement": "Treating doctor's medical council registration number is filled in"},
+    "form.diagnosis":         {"group": "Form", "requirement": "Provisional diagnosis is filled in and legible"},
+    "form.icd10":             {"group": "Form", "requirement": "ICD-10 code is filled in and consistent with the diagnosis and the proposed treatment"},
+    "form.procedure":         {"group": "Form", "requirement": "Proposed treatment is filled in"},
+    "form.admission_date":    {"group": "Form", "requirement": "Date of admission is filled in"},
+    "form.length_of_stay":    {"group": "Form", "requirement": "Expected length of stay (days) is filled in"},
+    "form.estimated_cost":    {"group": "Form", "requirement": "Estimated total cost is filled in"},
+    "form.doctor_signature":  {"group": "Form", "requirement": "Treating doctor has signed"},
+    "form.patient_signature": {"group": "Form", "requirement": "Patient has signed (an attendant may sign for an emergency admission)"},
+    "doc.id_card":            {"group": "Document", "requirement": "Corvus e-card (or legacy insurer card) or government photo ID, in the patient's own name"},
+    "doc.clinical_note":      {"group": "Document", "requirement": "Planned: consultation note dated within 30 days before admission. Emergency: admission note"},
+    "doc.cost_estimate":      {"group": "Document", "requirement": "Cost estimate on hospital letterhead, signed by the hospital, total within 10% of the form"},
+    "doc.biometry":           {"group": "Document", "requirement": "Biometry report (A-scan or optical) with the IOL power, for the eye being operated on"},
+    "estimate.iol_details":   {"group": "Estimate", "requirement": "Cost estimate lists the lens (IOL) type and its cost"},
+    "doc.xray_knee":          {"group": "Document", "requirement": "X-ray report of the knee being operated on, dated within 90 days before admission"},
+    "doc.conservative_treatment": {"group": "Document", "requirement": "A separate record of at least 6 weeks of conservative treatment (physiotherapy or medicines). A mention in the consultation note is not enough"},
+    "estimate.implant_details": {"group": "Estimate", "requirement": "Cost estimate lists the implant and its cost"},
+    "doc.abdominal_imaging":  {"group": "Document", "requirement": "The ultrasound or CT report of the abdomen itself, supporting the diagnosis"},
+    "doc.antenatal_record":   {"group": "Document", "requirement": "A separate antenatal record (card) showing LMP and EDD. The obstetric note alone is not enough"},
+    "note.lscs_indication":   {"group": "Clinical note", "requirement": "Caesarean only: the medical reason for the caesarean is stated in the obstetric note"},
+    "doc.ecg":                {"group": "Document", "requirement": "The ECG report itself (a mention in the note is not enough)"},
+    "doc.angiography":        {"group": "Document", "requirement": "The coronary angiography report itself, naming the vessel and the % narrowing (a mention in the note is not enough)"},
+    "estimate.stent_details": {"group": "Estimate", "requirement": "Cost estimate lists the stent(s) and their cost"}
+  },
+
+  "common_items": [
+    "form.patient_name", "form.member_id", "form.hospital_id", "form.doctor_name",
+    "form.doctor_reg_no", "form.diagnosis", "form.icd10", "form.procedure",
+    "form.admission_date", "form.length_of_stay", "form.estimated_cost",
+    "form.doctor_signature", "form.patient_signature",
+    "doc.id_card", "doc.clinical_note", "doc.cost_estimate"
+  ],
+
+  "treatment_items": {
+    "cataract":     ["doc.biometry", "estimate.iol_details"],
+    "tka":          ["doc.xray_knee", "doc.conservative_treatment", "estimate.implant_details"],
+    "appendectomy": ["doc.abdominal_imaging"],
+    "delivery":     ["doc.antenatal_record", "note.lscs_indication"],
+    "ptca":         ["doc.ecg", "doc.angiography", "estimate.stent_details"]
+  },
+
+  "conditional_items": {
+    "note.lscs_indication": {"only_when": "delivery_mode == caesarean"}
+  },
+
+  "treatment_labels": {
+    "cataract": "Cataract surgery (phacoemulsification with IOL)",
+    "tka": "Total knee replacement",
+    "appendectomy": "Appendectomy (emergency)",
+    "delivery": "Delivery (normal or caesarean)",
+    "ptca": "Coronary angioplasty with stent (PTCA)"
+  },
+
+  "rules": {
+    "clinical_note_max_days_before_admission": 30,
+    "xray_knee_max_days_before_admission": 90,
+    "cost_tolerance_pct": 10,
+    "conservative_treatment_min_weeks": 6,
+    "laterality_by_treatment": {"cataract": "eye", "tka": "knee"},
+    "laterality_document": {"cataract": "doc.biometry", "tka": "doc.xray_knee"},
+    "estimate_line_item": {
+      "estimate.iol_details":    ["iol", "lens", "intraocular"],
+      "estimate.implant_details":["implant", "prosthesis"],
+      "estimate.stent_details":  ["stent"]
+    },
+    "standalone_documents": [
+      "doc.conservative_treatment", "doc.abdominal_imaging",
+      "doc.antenatal_record", "doc.ecg", "doc.angiography"
+    ],
+    "icd10_prefixes": {
+      "cataract":     ["H25", "H26", "H28"],
+      "tka":          ["M17"],
+      "appendectomy": ["K35", "K36", "K37"],
+      "delivery":     ["O80", "O81", "O82", "O83", "O84", "Z37", "Z38"],
+      "ptca":         ["I20", "I21", "I24", "I25"]
+    }
+  }
+}

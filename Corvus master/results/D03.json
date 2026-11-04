@@ -1,0 +1,15 @@
+{
+  "packet_id": "D03",
+  "treatment_type": "cataract",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH34290703",
+    "patient_name": "Anuradha Naidu",
+    "icd10": "H25.1",
+    "admission_date": "2026-10-14",
+    "estimated_cost": 60000
+  },
+  "evidence": {},
+  "reason": ""
+}

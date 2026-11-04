@@ -1,0 +1,15 @@
+{
+  "packet_id": "D13",
+  "treatment_type": "ptca",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH34440529",
+    "patient_name": "Mamta Chauhan",
+    "icd10": "I21.4",
+    "admission_date": "2026-10-09",
+    "estimated_cost": 207800
+  },
+  "evidence": {},
+  "reason": ""
+}

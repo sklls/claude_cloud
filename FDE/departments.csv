@@ -1,0 +1,9 @@
+department,handles
+Merchandising,"Sizing, fit, fabric, product quality, product photos, size charts"
+Store Operations,"Staff behaviour, queues, pickup delays, order-picking errors"
+Inventory,"Stock not matching what the site showed, reservations not held"
+Pricing & Marketing,"Price differences, offers and discounts"
+Tech / Product,"Website, checkout and payment problems"
+Customer Care,"Refunds, general queries, replies"
+Brand / PR,"Abuse, legal risk, public threats, viral complaints"
+Ignore,Spam

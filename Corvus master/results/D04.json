@@ -1,0 +1,15 @@
+{
+  "packet_id": "D04",
+  "treatment_type": "tka",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH30753992",
+    "patient_name": "Shilpa Pawar",
+    "icd10": "M17.1",
+    "admission_date": "2026-10-13",
+    "estimated_cost": 230000
+  },
+  "evidence": {},
+  "reason": ""
+}

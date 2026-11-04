@@ -1,0 +1,15 @@
+{
+  "packet_id": "D09",
+  "treatment_type": "appendectomy",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH42160732",
+    "patient_name": "Rajesh Mishra",
+    "icd10": "K35.3",
+    "admission_date": "2026-09-28",
+    "estimated_cost": 89000
+  },
+  "evidence": {},
+  "reason": ""
+}

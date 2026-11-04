@@ -1,0 +1,15 @@
+{
+  "packet_id": "D11",
+  "treatment_type": "delivery",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH39547180",
+    "patient_name": "Pooja Mishra",
+    "icd10": "O80.0",
+    "admission_date": "2026-10-09",
+    "estimated_cost": 46000
+  },
+  "evidence": {},
+  "reason": ""
+}

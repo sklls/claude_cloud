@@ -1,0 +1,15 @@
+{
+  "packet_id": "D06",
+  "treatment_type": "tka",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH39835819",
+    "patient_name": "Pallavi Kulkarni",
+    "icd10": "M17.1",
+    "admission_date": "2026-10-10",
+    "estimated_cost": 239000
+  },
+  "evidence": {},
+  "reason": ""
+}

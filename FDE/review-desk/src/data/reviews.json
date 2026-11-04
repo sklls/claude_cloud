@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "date": "28/09/26",
+    "name": "Karthik Nair",
+    "rating": 5,
+    "title": "Finally jeans that fit",
+    "text": "I usually struggle with slim jeans across the thighs. This tapered cut with a little stretch stayed comfortable through a full day at the office. I tried them on at Koramangala and the staff brought a 34 to compare without my asking. Bought the teal and will probably pick up a second colour.",
+    "source": "website"
+  },
+  {
+    "id": 2,
+    "date": "29/09/26",
+    "name": "Lakshmi Venkat",
+    "rating": 5,
+    "title": "Beautiful drape, helpful staff",
+    "text": "The cotton is crisp and drapes well, and the border looks richer in person than online. The lady at the T Nagar store helped me match a blouse piece and offered to hold the saree until Saturday so my sister could see it. Lovely experience from start to finish.",
+    "source": "google"
+  },
+  {
+    "id": 3,
+    "date": "30/09/26",
+    "name": "Imran Ali",
+    "rating": 1,
+    "title": "Worst experience, will go public",
+    "text": "My confirmation said the kurta was ready for pickup but the staff at Gachibowli told me it was not available. When I objected the manager shouted at me in front of other customers. Your staff are useless and I will post a video of this on every platform until someone from your company replies.",
+    "source": "google"
+  },
+  {
+    "id": 4,
+    "date": "01/10/26",
+    "name": "Meera Krishnan",
+    "rating": 5,
+    "title": "Diwali favourite",
+    "text": "Wore the block-print kurta for our Diwali puja and got compliments all evening. The print is crisp, the cotton is soft and the colour has not bled after the first wash. The Gachibowli team packed it neatly and it was ready before I got there.",
+    "source": "website"
+  },
+  {
+    "id": 5,
+    "date": "02/10/26",
+    "name": "Farah Qureshi",
+    "rating": 2,
+    "title": "Size 30 runs small",
+    "text": "I ordered size 30, my usual, and it was too tight at the waist and thighs. I had to go back to Kukatpally and exchange it for a 32, which fits fine. The size chart on the website says 30 is a 32 inch waist, but the trousers measure closer to 30. Please fix the chart before others make the same mistake.",
+    "source": "website"
+  },
+  {
+    "id": 6,
+    "date": "03/10/26",
+    "name": "Divya Sharma",
+    "rating": 4,
+    "title": "Lovely, just a bit long",
+    "text": "Gorgeous sage green and the wrap tie is adjustable, which I love. At 5'2\" it falls past my ankles so I will get it hemmed, but the fabric drapes beautifully. Four stars only because of the length, not the quality.",
+    "source": "website"
+  },
+  {
+    "id": 7,
+    "date": "04/10/26",
+    "name": "Siddharth Arora",
+    "rating": 1,
+    "title": "Advertised discount not applied",
+    "text": "There was a banner saying 10% off on formal trousers. At billing the staff said they knew nothing about it and charged the full price. It took ten minutes to get a manager, who said the offer ended last week, but the website still showed it when I reserved.",
+    "source": "google"
+  },
+  {
+    "id": 8,
+    "date": "05/10/26",
+    "name": "Rohan Desai",
+    "rating": 4,
+    "title": "Solid everyday tee",
+    "text": "Holds its shape after five washes and the indigo has not faded much. It is slightly longer than I expected, which I like. I wish there were more colours in my size, but I am happy with the quality for the price.",
+    "source": "website"
+  },
+  {
+    "id": 9,
+    "date": "06/10/26",
+    "name": "Mohit Uppal",
+    "rating": 1,
+    "title": "Bilkul bekaar",
+    "text": "Size M liya tha lekin bahut tight hai. Exchange karne store gaya to unhone bola ki L ka stock nahi hai. Poora din waste ho gaya aur kisi ne sorry bhi nahi bola.",
+    "source": "website"
+  },
+  {
+    "id": 10,
+    "date": "07/10/26",
+    "name": "Tanvi Hegde",
+    "rating": 2,
+    "title": "Promised 2 hours, took 4",
+    "text": "The banner says free pickup in 2 hours. My order was confirmed at 11:15 and I reached Gachibowli at 1:30, but it still was not ready. I waited until after 3 and had to ask three times. Nobody told me why it was delayed.",
+    "source": "website"
+  },
+  {
+    "id": 11,
+    "date": "08/10/26",
+    "name": "Pooja Menon",
+    "rating": 5,
+    "title": "My son will not take it off",
+    "text": "Soft fabric, sturdy buttons and a gentle elastic at the waist. I have machine washed it twice with no shrinking. The Koregaon Park store let him try it on in the kids' area and the staff were so patient with him.",
+    "source": "website"
+  },
+  {
+    "id": 12,
+    "date": "09/10/26",
+    "name": "Arjun Bhat",
+    "rating": 1,
+    "title": "Colour faded after one wash",
+    "text": "The blush pink looked lovely in the store but after the first cold wash it has gone patchy and washed out. I followed the care label exactly. For this price I expected better dye quality. I would like an exchange or a refund.",
+    "source": "website"
+  },
+  {
+    "id": 13,
+    "date": "10/10/26",
+    "name": "Sana Khan",
+    "rating": 5,
+    "title": "Great service!!",
+    "text": "Great service, I only waited two extra hours at Gachibowli. Truly the fast pickup I was promised. Five stars for making me miss my own function!",
+    "source": "google"
+  },
+  {
+    "id": 14,
+    "date": "11/10/26",
+    "name": "Rakesh Jain",
+    "rating": 3,
+    "title": "Good shirt, long wait",
+    "text": "The shirt is lovely, soft and the navy is a rich shade. But pickup at Indiranagar took nearly three hours against the two promised. The staff were polite about it. I would buy again, just not on a day I am in a hurry.",
+    "source": "website"
+  },
+  {
+    "id": 15,
+    "date": "12/10/26",
+    "name": "Anjali Wagh",
+    "rating": 2,
+    "title": "Pay online failed twice",
+    "text": "I chose Pay online and the page hung on Processing twice and then said nothing. I am not sure whether any money was taken and I cannot see an order in My Orders. In the end I started again and chose to pay at the store, which worked.",
+    "source": "website"
+  },
+  {
+    "id": 16,
+    "date": "12/10/26",
+    "name": "Shalini Reddy",
+    "rating": 5,
+    "title": "Pretty set, free alteration",
+    "text": "The colour matches the website exactly, which is rare. The palazzo has a comfortable elastic waist and the kurta fabric is soft. I picked it up at Kukatpally and the staff offered to shorten the kurta for free while I waited.",
+    "source": "website"
+  },
+  {
+    "id": 17,
+    "date": "13/10/26",
+    "name": "Nisha Joseph",
+    "rating": 5,
+    "title": "Quick pickup at Whitefield",
+    "text": "Light and flattering, and the mustard is bright without being loud. Pickup at Whitefield took less than an hour from the confirmation message. The staff checked the dress for loose threads before handing it over, which I appreciated.",
+    "source": "website"
+  },
+  {
+    "id": 18,
+    "date": "13/10/26",
+    "name": "Bhavna Shah",
+    "rating": 2,
+    "title": "Nobody answers the helpline",
+    "text": "I needed to change my pickup store after reserving a pair of jeans. The helpline number on the website rang for ten minutes and then cut off, and the email reply took four days. In the end I cancelled and reserved again. It should be easy to change a reservation.",
+    "source": "website"
+  },
+  {
+    "id": 19,
+    "date": "14/10/26",
+    "name": "Gopal Raman",
+    "rating": 1,
+    "title": "Site said in stock, store said no",
+    "text": "The site showed size L available at T Nagar, so I reserved it and drove 40 minutes in traffic. At the store they said that size had sold the day before and the website had not updated. They were apologetic, but I wasted my whole evening.",
+    "source": "website"
+  },
+  {
+    "id": 20,
+    "date": "15/10/26",
+    "name": "Ishita Pillai",
+    "rating": 5,
+    "title": "Nice jeans, but...",
+    "text": "Nice jeans, great fit and the rust colour is lovely. But the person at the pickup counter in Whitefield was shouting at another customer when I arrived, and it was really uncomfortable to stand there. I hope the store looks into it.",
+    "source": "google"
+  },
+  {
+    "id": 21,
+    "date": "16/10/26",
+    "name": "Yash Kapoor",
+    "rating": 2,
+    "title": "Price different at the counter",
+    "text": "The website showed this tee at 799 but the counter at Andheri charged 899. I showed them the screenshot and it took 20 minutes and a manager to sort out. Please keep the website and store prices in sync.",
+    "source": "website"
+  },
+  {
+    "id": 22,
+    "date": "17/10/26",
+    "name": "Priya Sharma",
+    "rating": 2,
+    "title": "Sized by the chart and it did not fit",
+    "text": "I ordered a 30 using the size chart and the trousers would not button up. They look great but the sizing is clearly off. It was a hassle to travel to Banjara Hills for the pickup and then queue again for an exchange.",
+    "source": "website"
+  },
+  {
+    "id": 23,
+    "date": "18/10/26",
+    "name": "Varun Nair",
+    "rating": 1,
+    "title": "Love it",
+    "text": "Love it, fits perfectly and the fabric is great. Clicked one star by mistake, sorry. Please ignore the rating!",
+    "source": "website"
+  },
+  {
+    "id": 24,
+    "date": "19/10/26",
+    "name": "Deepak Oberoi",
+    "rating": 1,
+    "title": "Half an hour in a queue",
+    "text": "Only one person was handling pickups at Gachibowli on a Saturday afternoon. There were about eight people ahead of me and my bag, which had supposedly been ready for an hour, took 30 minutes to find. The shirt is fine but this was exhausting.",
+    "source": "google"
+  },
+  {
+    "id": 25,
+    "date": "19/10/26",
+    "name": "Harish Kumar",
+    "rating": 3,
+    "title": "Does the job",
+    "text": "The formal trousers fit fine and the pleats look neat. The fabric is a little thin for winter. For the price it is acceptable, nothing special and nothing wrong.",
+    "source": "website"
+  },
+  {
+    "id": 26,
+    "date": "20/10/26",
+    "name": "Sunita Iyer",
+    "rating": 2,
+    "title": "Wrong size in the bag",
+    "text": "I ordered 6-7Y but the packed bag had the 8-9Y set. I noticed only at home because the size tag was tucked inside. Now I have to travel back to Kukatpally for an exchange, and the festival is this weekend.",
+    "source": "website"
+  },
+  {
+    "id": 27,
+    "date": "20/10/26",
+    "name": "Rhea Yadav",
+    "rating": 5,
+    "title": "Ekdum mast dress",
+    "text": "Ekdum mast dress hai, fit bhi perfect aur pickup bhi jaldi ho gaya. Gachibowli ke staff ne dress ko ache se pack kiya. Sabko recommend karungi!",
+    "source": "website"
+  },
+  {
+    "id": 28,
+    "date": "21/10/26",
+    "name": "Kavita Deshmukh",
+    "rating": 2,
+    "title": "Reserved two, only one held",
+    "text": "I reserved two shirts online as a gift. At Banjara Hills only one was kept aside and they said the other had been sold at the counter. This is the second time the stock at this store has not matched what the site promised.",
+    "source": "website"
+  },
+  {
+    "id": 29,
+    "date": "21/10/26",
+    "name": "Preeti Bansal",
+    "rating": 3,
+    "title": "Will update after a few washes",
+    "text": "I have not washed it yet. The print looks nice and the fit is okay. I will update my review after a few washes to see how the colour holds up.",
+    "source": "website"
+  },
+  {
+    "id": 30,
+    "date": "22/10/26",
+    "name": "Megha Fernandes",
+    "rating": 1,
+    "title": "Still no refund after 12 days",
+    "text": "I returned the dress on the 10th with the receipt and was told the refund would arrive in 5 to 7 working days. It has been 12 days, nothing in my account, and nobody answers the phone number printed on the receipt. Order TH-13007. I am now thinking of raising a chargeback with my bank.",
+    "source": "website"
+  },
+  {
+    "id": 31,
+    "date": "22/10/26",
+    "name": "Shweta Lal",
+    "rating": 2,
+    "title": "Seam split after two wears",
+    "text": "The seam at the waist of the tiered maxi dress came apart after I had worn it just twice. The fabric is lovely but the stitching is poor. I am worried the rest of the batch might be the same.",
+    "source": "website"
+  },
+  {
+    "id": 32,
+    "date": "23/10/26",
+    "name": "Neha Kulkarni",
+    "rating": 3,
+    "title": "Do you have it in blue?",
+    "text": "The saree is beautiful and the cotton is a good weight. Do you plan to bring it in blue or bottle green? I would buy two. Until then three stars, only because I cannot get the colour I want.",
+    "source": "website"
+  },
+  {
+    "id": 33,
+    "date": "23/10/26",
+    "name": "Rahul Zaveri",
+    "rating": 2,
+    "title": "Not the colour in the photos",
+    "text": "The teal in the product photos is much brighter than the real jeans, which are closer to a dull green-grey. The fit is fine but I would not have bought them if I had seen the true colour. Please update the images.",
+    "source": "website"
+  },
+  {
+    "id": 34,
+    "date": "24/10/26",
+    "name": "Aman Gupta",
+    "rating": 5,
+    "title": "Friendly team at CP",
+    "text": "I went in unsure of my size. The team at Connaught Place measured me, suggested L for a relaxed fit and had it packed within minutes. The poplin is crisp and stays white. I would recommend the pickup option to anyone short on time.",
+    "source": "store card"
+  },
+  {
+    "id": 35,
+    "date": "24/10/26",
+    "name": "Nandini Chawla",
+    "rating": 1,
+    "title": "Rude and unhelpful",
+    "text": "The salesperson at Connaught Place barely looked at me and refused to exchange an unworn saree with the tags on, even though the return policy says seven days. She said it was not her problem. Very disappointing for a brand that talks so much about service.",
+    "source": "store card"
+  },
+  {
+    "id": 36,
+    "date": "25/10/26",
+    "name": "Sneha Patil",
+    "rating": 5,
+    "title": "Reserve online, pay at the store",
+    "text": "I reserved the ivory linen trousers online, tried them on at the store and paid at the counter. It was exactly how shopping should work. Size 28 fits well at the waist and the wide leg looks great. Please keep this one in stock.",
+    "source": "website"
+  },
+  {
+    "id": 37,
+    "date": "25/10/26",
+    "name": "Work From Home",
+    "rating": 5,
+    "title": "Earn 5000 per day",
+    "text": "Earn 5000 rupees per day working from home. Message us on WhatsApp now at +91 90000 00000, no experience needed. By the way, great shirt.",
+    "source": "website"
+  },
+  {
+    "id": 38,
+    "date": "26/10/26",
+    "name": "Ravi Teja",
+    "rating": 4,
+    "title": "Good fit, fair price",
+    "text": "Fits well across the shoulders and the teal looks smarter in person than on the website. For the price I think it is fair. Four stars because the inner lining felt slightly stiff, but I expect it will soften with use.",
+    "source": "website"
+  },
+  {
+    "id": 39,
+    "date": "26/10/26",
+    "name": "Vikram Singh",
+    "rating": 4,
+    "title": "Nice pique polo",
+    "text": "Good weight pique fabric and the collar holds its shape. Pickup at Saket was quick and the bag was ready when I walked in. I only wish the XL was a little longer at the back.",
+    "source": "website"
+  },
+  {
+    "id": 40,
+    "date": "26/10/26",
+    "name": "Guest",
+    "rating": 3,
+    "title": "It is okay",
+    "text": "Fabric is okay, fit is okay. Nothing special at this price but nothing wrong either.",
+    "source": "website"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "packet_id": "D15",
+  "treatment_type": "ptca",
+  "status": "complete",
+  "missing_items": [],
+  "fields": {
+    "member_id": "CVH48230080",
+    "patient_name": "Ganesan Murugesan",
+    "icd10": "I21.4",
+    "admission_date": "2026-10-11",
+    "estimated_cost": 211800
+  },
+  "evidence": {},
+  "reason": ""
+}
